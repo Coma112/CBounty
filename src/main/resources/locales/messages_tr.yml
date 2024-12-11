@@ -3,7 +3,7 @@ messages:
   help:
     - "&8&l━━━━━━━━━━━━━━━━━━━━━━━[━━&6&lCBOUNTY&8&l━━]━━━━━━━━━━━━━━━━━━━━━━━"
     - ""
-    - "&6/cbounty reload &f- &7Eklent yeniden yükler."
+    - "&6/cbounty reload &f- &7Eklentiyi yeniden yükler."
     - "&6/cbounty streaktop &7(&6değer&7) &f- &7Seri liderlerini gösterir."
     - "&6/cbounty menu &f- &7Ödül menüsünü açar."
     - "&6/cbounty set &7(&6hedef&7) (&6ödül türü&7) (&6ödül&7) &f- &7Bir ödül belirler."
@@ -24,7 +24,7 @@ messages:
   no-negative: "&6&lBOUNTY &8| &cSayı pozitif olmalıdır!"
   successful-set: "&6&lBOUNTY &8| &aBaşarıyla bir av ayarladınız!"
   bounty-set-broadcast: "&6&lBOUNTY &8| &6Bir av ayarlandı! &aHedef: {target}, &aÖdül: {reward}, &aÖdül Türü: {rewardType}"
-  bounty-raise-broadcast: "&6&lBOUNTY &8| &6Bir av artırıldı! &aHedef: {target}, &aEski Ödül: {oldReward}, &aYeni Ödül: {newReward}"
+  bounty-raise-broadcast: "&6&lBOUNTY &8| &6Bir av ödülü artırıldı! &aHedef: {target}, &aEski Ödül: {oldReward}, &aYeni Ödül: {newReward}"
   bounty-dead-everyone: "&6&lBOUNTY &8| &a{name} artık bir av değil!"
   bounty-dead-target: "&6&lBOUNTY &8| &aBir avdın ama biri seni öldürdü!"
   bounty-dead-killer: "&6&lBOUNTY &8| &aBir avı başarıyla öldürdün!"
@@ -33,7 +33,7 @@ messages:
   not-enough-playerpoints: "&6&lBOUNTY &8| &cYeterli oyuncu puanınız yok!"
   not-enough-level: "&6&lBOUNTY &8| &cYeterli XP seviyeniz yok!"
   not-enough-coinsengine: "&6&lBOUNTY &8| &cYeterli coinsengine yok!"
-  maximum-top: "&6&lBOUNTY &8| &c{top}'den büyük olamaz!"
+  maximum-top: "&6&lBOUNTY &8| &c{top} değerinden büyük olamaz!"
   top:
     header: '&6En İyi {value} Serileri:&f'
     message: '&f{place}. &6{name} &f- &7(&6{streak}&7)'
@@ -50,6 +50,6 @@ messages:
   successful-takeoff-target: "&6&lBOUNTY &8| &a{player} adlı oyuncu sizden avını kaldırdı!"
   full-inventory: "Hedefin envanteri dolu!"
   item-already-in-inventory: "&cÖğe zaten hedef oyuncunun envanterinde."
-  bounty-finder-given: "&a{target}'e başarıyla bir av bulucu verildi!"
+  bounty-finder-given: "&a{target} adlı oyuncuya başarıyla bir av bulucu verildi!"
   bounty-finder-received: "&aBir av bulucu aldınız!"
   invalid-rewardlimit: "&6&lBOUNTY &8| minimum {min} ve maksimum {max}"
